@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+	margin: auto auto;
+	background-image: url("boardroom_b2-t-min.png");
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+}
+
+.head-img {
+	background: hsla(225, 51%, 25%, 1);
+	background: linear-gradient(90deg, hsla(225, 51%, 25%, 1) 0%, hsla(155, 100%, 24%, 1) 50%, hsla(225, 51%, 25%, 1) 100%);
+	background: -moz-linear-gradient(180deg, hsla(225, 51%, 25%, 1) 0%, hsla(155, 100%, 24%, 1) 50%, hsla(225, 51%, 25%, 1) 100%);
+	background: -webkit-linear-gradient(180deg, hsla(225, 51%, 25%, 1) 0%, hsla(155, 100%, 24%, 1) 50%, hsla(225, 51%, 25%, 1) 100%);
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1F2F5F", endColorstr="#007C48", GradientType=1 );
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+
+.doe-logo {
+	width: 7.5%;
+	padding: 2%;
+}
+
+.doe-logo:hover {
+	opacity: 80%;
+}
+
+.osdbu-logo {
+	float: right;
+	width: 20%;
+	padding: 3%;
+}
+
+.osdbu-logo:hover {
+	opacity: 80%;
+}
+
+.header-text {
+	text-align: center;
+	position: relative;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFF;
+	color: black;
+	-webkit-box-shadow: -4px 4px 12px 4px #0F0F0F;
+	box-shadow: -4px 4px 14px 4px #0F0F0F;
+}
+
+#wrapper {
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+	width: 70%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	background: rgba(255,255,255, 0.6);
+	top: -20px;
+	position: relative;
+}
+
+#wrapper table  {
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-family: inherit;
+}
+#wrapper table .td-2 {
+    padding-left: 14%;
+}
+table tr .td-1 {
+    padding-left: 0%;
+}
+.td-2 ul li {
+    margin-top: 1.5%;
+}
+
+#wrapper table {
+    margin: auto auto;
+}
+.head-img .header-text h1 {
+    font-family: calibri;
+    color:#7895B5;
+	letter-spacing: 8px;
+}
+#wrapper table select {
+    font-size: 16px;
+}
+
+
+.td-2 ul li {
+    display: block;
+}
+
+table a b {
+    text-decoration: underline;
+}
+
+
+input {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+}
+
+b {
+	font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+a:active, a:visited {
+	color: blue;
+}
+table ul li {
+    display: block;
+}
+
+label {
+	display:flex;
+	align-items: center;
+}
+
+textarea {
+	width: 60%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+
+i {
+	color:#525252
+}
+li label b {
+
+}
+li label b {
+}
+.small-text li b {
+    font-size: 15.5px;
+
+}
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+}
+.small-text {
+}
